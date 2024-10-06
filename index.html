@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Medico: Medical Query Assistant">
+  <meta name="keywords" content="Medical, Query, Assistant, Health, AI">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Medico: Medical Query Assistant</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+
+<body>
+
+  <style>
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+
+    .small-image {
+      width: 50%;
+      height: auto;
+    }
+  </style>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container">
+
+        <div class="container has-text-centered">
+          <h1 class="title is-1 publication-title">
+            Medico(Chatbot): Medical Query Assistant
+          </h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+
+          <div class="content has-text-justified">
+            <p>
+              Medico is a Medical Query Assistant application designed to process and respond to user queries related to
+              health and medical topics. It leverages machine learning models to provide accurate and helpful responses,
+              supporting both text and audio inputs. The application integrates multiple response sources, including
+              Direct Model, ChromaDB, and Retrieval-Augmented Generation (RAG), and offers text-to-speech capabilities
+              for enhanced user interaction.
+            </p>
+          </div>
+
+          <div class="video-container">
+            <video controls>
+              <source src="static/assets/demo.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+
+      <!-- Features. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Features</h2>
+
+          <div class="content has-text-justified">
+            <ul>
+              <li>Text and Audio Input</li>
+              <li>Multiple Response Sources: Direct Model, ChromaDB, RAG</li>
+              <li>Text-to-Speech Conversion</li>
+              <li>User Interface with Gradio</li>
+            </ul>
+          </div>
+          <img src="static/assets/rag-with-llms.gif" alt="Description of the image" class="feature">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+
+      <!-- Models Used. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Models Used</h2>
+
+          <div class="content has-text-justified">
+            <ul>
+              <li>For Embedding: sentence-transformers/all-MiniLM-L12-v2</li>
+              <li>For Generation: Australia/Mixtral-8x7B-Instruct-v0.1</li>
+              <li>For Speech to Text: open/whisper-base.en</li>
+              <li>For Text to Speech: gTTS library</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <a href="mailto:khaledahmedebrzhim@gmail.com">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a class="external-link" href="https://github.com/K7alid/Graduation_Project_of_DEPI">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+  </footer>
+
+
+</body>
+
+</html>
